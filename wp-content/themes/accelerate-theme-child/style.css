@@ -17,11 +17,11 @@
 }
 
 #masthead {
-    background: none repeat scroll 0 0 red;
+    background: none repeat scroll 0 0 #46AC9E;
 }
 
 .button {
-    background: none repeat scroll 0 0 red;
+    background: none repeat scroll 0 0 #46AC9E
 }
 
 .blog-post {
@@ -75,12 +75,12 @@
 	color: #aaa;
 }
 
-.single-case_studies .samples {
+.single-case_studies .case-study-images {
 	float: right;
 	width: 65%;
 }
 
-.single-case_studies .samples img {
+.single-case_studies .case-study-images img {
 	width: 100%;
 	display: block;
 	margin-top: 40px;
