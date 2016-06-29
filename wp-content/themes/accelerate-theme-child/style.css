@@ -59,3 +59,29 @@
 }
 
 
+
+
+
+
+/*CASE STUDIES*/
+
+.single-case_studies .case-study-sidebar {
+	float: left;
+	width: 30%;
+	margin-top: 20px;
+}
+
+.single-case_studies .case-study-sidebar #gray {
+	color: #aaa;
+}
+
+.single-case_studies .samples {
+	float: right;
+	width: 65%;
+}
+
+.single-case_studies .samples img {
+	width: 100%;
+	display: block;
+	margin-top: 40px;
+}
