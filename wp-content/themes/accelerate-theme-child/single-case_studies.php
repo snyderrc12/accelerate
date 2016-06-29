@@ -1,11 +1,7 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying Case Studies
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
  *
  * @package WordPress
  * @subpackage Accelerate Marketing
@@ -16,11 +12,45 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-			<?php endwhile; // end of the loop. ?>
+
+<?php while ( have_posts() ) : the_post(); ?>
+
+	$services = get_field('services');
+	$client = get_field('client');
+	$link = get_field('site_link');
+	$image_1 = get_field('image_1');
+	$image_2 = get_field('image_2');
+	$image_3 = get_field('image_3');
+
+<?php endwhile; // end of the loop. ?>
+
+<article class="case-study">
+<aside class="case-study-sidebar">
+	<h2>MailChimp Campaign</h2>
+	<p id="gray">Content Strategy, Design & Development</p>
+	<p>Client: MailChimp</p>
+	<p> This is a project I  made for this company for this. Here is the early stage startup that I helped design and do front-end and back-end dev for.</p>
+	<h4>Visit Live Site</h4>
+	<?php the_content(); ?>
+</aside>
+
+
+
+
+
+<div class="samples">
+
+
+</div>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
+
+
+
+
+
+
+

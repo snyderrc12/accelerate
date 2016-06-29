@@ -74,13 +74,13 @@
 
 /*CASE STUDIES*/
 
-.single-case_studies .description {
+.single-case_studies .case-study-sidebar {
 	float: left;
 	width: 30%;
 	margin-top: 20px;
 }
 
-.single-case_studies .description #gray {
+.single-case_studies .case-study-sidebar #gray {
 	color: #aaa;
 }
 
