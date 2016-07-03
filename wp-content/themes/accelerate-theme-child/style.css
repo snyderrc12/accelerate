@@ -83,7 +83,7 @@
 .single-case_studies .case-study-images img {
 	width: 100%;
 	display: block;
-	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 /*Featured work on homepage*/
@@ -105,6 +105,32 @@
 
 .individual-featured-work h3 {
 	font-weight: normal;
+}
+
+/*Case Studies Archive */
+
+.case-study .case-study-sidebar {
+	margin: 24px 0 24px 0px;
+	float: left;
+	width: 30%;
+}
+
+.case-study .case-study-sidebar #gray {
+	color: #aaa;
+}
+
+.case-study .case-study-images {
+	float: right;
+	width: 60%;
+	margin: 40px 0 40px 10%;
+}
+
+.case-study .case-study-images img {
+	display: block;
+}
+
+.case-study .case-study-images:after {
+	clear: both;
 }
 
 
