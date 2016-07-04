@@ -133,4 +133,41 @@
 	clear: both;
 }
 
+/*Contact Us Page */
+/*Ninja Forms */
+
+.page-id-47353 .site-content {
+	width: 35%;
+	margin: auto;
+}
+
+.ninja-forms-form-wrap label {
+    font-weight: normal !important;
+    font-size: 18px;
+}
+
+#ninja_forms_field_1_div_wrap {
+	float: left;
+	width: 60%;
+	margin-right: 5%;
+}
+
+#ninja_forms_field_2_div_wrap {
+	float: left;
+	width: 35%;
+}
+
+#ninja_forms_field_2_div_wrap:after {
+	clear: both;
+}
+
+#ninja_forms_field_4_div_wrap input {
+	float: right;
+	background: #46AC9E;
+	font-family: 'Montserrat';
+	color: #FFF;
+	padding: 15px 60px;
+}
+
+
 
