@@ -170,4 +170,26 @@
 }
 
 
+/*ABOUT PAGE */
 
+.page-id-47358 .site-main{
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 200px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.about-hero {
+	text-align:center;
+}
+
+.about-hero p {
+    color: white;
+    font-family: "open sans";
+    font-size: 32px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+.green {
+	color: #46AC9E;
+}
